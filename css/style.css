@@ -1,0 +1,28 @@
+.card{
+  flex-basis: 450px;
+}
+
+.pricing{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+@media (max-width: 900px){
+  header{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+  }
+  .nav_links{
+    flex-direction: row;
+}
+/*step 12*/
+.card{
+  flex-basis: 275px;
+}
+
+}
+@media all and (prefers-reduced-motion:reduce){
+
+}
